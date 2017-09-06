@@ -1,0 +1,85 @@
+
+body{
+    margin: 0px;
+    background-color: #f2eaea;
+    font-family:agency fb;
+
+}#tophead{
+    position: fixed;
+    height:70px;
+    width: 100%;
+    padding-top: 20px;
+    top: 0px;
+    font-family:agency fb;
+    background-color: #e80d0d;
+    z-index: 1000;
+}
+#heading{
+    margin-top: 20px;
+    padding : 15px;
+    font-size: 32px;
+    color: white;
+}
+#form{
+    height: 1000px;
+    box-shadow:0px 0px  10px #888888;
+    margin: 10% 20%;
+    background-color:white;;
+
+}
+div.tab {
+    border: 1px solid #ccc;
+    background-color: #e80d0d;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: #e80d0d;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+        font-family:agency fb;
+        font-size: 25px;
+
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #f44242;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 116px 72px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#addimage{
+    height:100px;
+    width:100px;
+    border: 2px dotted lightgrey;
+
+}

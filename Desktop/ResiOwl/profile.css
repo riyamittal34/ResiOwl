@@ -1,0 +1,70 @@
+.prof_main{
+    background-color: #1E1E1E;
+    width: 100%;
+    padding:20px;
+    border-radius: 100px;
+}
+
+body{
+    padding:0 10%;
+    background-color: lightblue;
+    
+}
+.prof_div hr{
+    border:1px solid peru;
+}
+.prof_div{
+    z-index:5;
+    height:100%;   
+    background-color:rgba(0,0,0,0.5); 
+    padding:10px 0;
+    width: 70%;
+    border-radius: 50px;
+    margin:25px 0 25px 25px;
+    border: 2px solid goldenrod;
+}
+.square {
+    float:left;
+    position: relative;
+    width:30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:20px;;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    color: white;
+    
+}
+
+/*  For responsive images */
+
+.prof_div h3{
+    font-family:Tahoma;
+    color: Peru;
+    margin: 0;
+}
+.prof_div h4{
+    font-family:Tahoma;
+    color: white;
+    margin:0;
+}
+.content{
+    /*width:auto;
+    height:auto;*/
+    max-height:90%;
+    max-width:100%;
+    
+}
+.rs{
+    /*width:auto;
+    height:auto;*/
+    
+    width:100%;
+    border: 2px solid peru;
+}

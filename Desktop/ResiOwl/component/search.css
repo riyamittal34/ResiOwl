@@ -1,0 +1,80 @@
+.data {
+	width: 80%;
+	float: left;
+	margin: 2% 10%;
+	border-radius: 30px;
+	box-shadow:25px 25px 100px #000;
+}
+.image {
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	padding: 2%;
+}
+.logoimg{
+    top:-2px;
+    position: absolute;
+    height: 50px;
+    width: 120px;
+
+} 
+.content {
+	float: left;
+	width: 70%;
+	
+}
+.box {
+	margin: 3%;
+	height: 100%;
+	color:black;
+	background-color: white;
+}
+.des {
+	margin-left: 3%;
+	margin-right: 5%;
+}
+.content h4,h3{
+	display:inline;
+	margin-right: 2%;
+}
+.content h4 {
+	margin-left: 3%;
+}
+.des textarea {
+	width: 50%;
+}
+.list{
+	display: inline;
+	margin: 2%;
+}
+.body {
+	background-image: url('../images/home-wallpaper-20.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.data p{
+	color:white;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:20px;
+	margin-bottom:0;
+	margin-top:1%;
+	letter-spacing:1em;
+	font-weight:bold;
+}
+
+.book {
+	padding:2%;
+	float:right;
+}
+
+.slider  img:hover{
+	transform: scale(1.2);
+}
+.slider img{
+	transition: all 1s ease;
+}
+
+.s-img{
+	border-radius:30px;
+}

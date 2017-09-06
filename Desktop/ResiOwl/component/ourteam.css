@@ -1,0 +1,79 @@
+.team {
+	width: 80%;
+	color: #ccc;
+	background-color: rgba(0,0,0,0.5);
+	border:2px solid coffee;
+	border-radius:100px
+	
+}
+.image {
+	border-radius: 100%;
+	border: 5px solid teal;
+}
+
+
+.message {
+	width: 100%;
+	height:50%;
+	text-align:center;
+}
+.QL {
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+}
+.Q {
+	margin:0;
+}
+.links {
+	color: #aaa;
+	text-decoration: none;
+	border:none;
+	padding:0 20px;
+}
+body {
+	/*background-image: url('hd-wallpapers-pic-20.jpg');*/
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background: linear-gradient(to right,black,silver,black);
+}
+.logoimg1{
+    top:-2px;
+    position: absolute;
+    height: 50px;
+    width: 120px;
+
+} 
+.nb{
+    width: 100%;
+    border-radius: 0px;
+    z-index:1000;
+    position:fixed;
+    opacity: 0.8;
+}
+
+.item  li{
+	font-size:15px;
+	padding-top:1.0%;
+}
+
+.text p {
+	text-align:center;
+	color:teal;
+	font-family:agency fb;
+	font-size:45px;
+	text-transform:uppercase;
+}
+.about-us {
+	text-align: center;
+	color: white;
+}
+.about-us p{
+	font-size: 24px;
+}
+
+
+.message p{
+	font-size: 30px;
+	color:White;
+}
